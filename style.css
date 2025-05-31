@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to right, #4a73e2, #919bca);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown-clock {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#displayDate {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.timer div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 80px;
+}
+
+.timer span {
+    display: block;
+    font-size: 2rem;
+    color: #333;
+}
+
+.timer small {
+    color: #777;
+    font-size: 0.8rem;
+}

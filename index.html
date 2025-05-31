@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Birthday Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="countdown-clock">
+        <h1>🎂 Enter Your Birthday</h1>
+        <input type="date" id="birthdayInput">
+        <button onclick="startCountdown()">Start Countdown</button>
+
+        <div id="displayDate"></div>
+
+        <div class="timer" id="timer">
+            <div><span id="days">--</span><small>Days</small></div>
+            <div><span id="hours">--</span><small>Hours</small></div>
+            <div><span id="minutes">--</span><small>Minutes</small></div>
+            <div><span id="seconds">--</span><small>Seconds</small></div>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>
